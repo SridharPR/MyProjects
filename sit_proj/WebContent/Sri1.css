@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.backg {background: url("bs.png") ; 
+background-repeat:no-repeat; 
+background-position: center; 
+background-attachment: inherit;
+background-color:#E07A09;
+
+height:98%;
+width:50%;
+margin:auto;
+padding :0px;
+}

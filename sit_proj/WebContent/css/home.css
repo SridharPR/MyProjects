@@ -1,0 +1,107 @@
+html{
+	overflow:hidden;
+	width: 100%;
+	height:100%;
+}
+
+.gradientbody {
+	width: 100%;
+	height:100%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background: linear-gradient(rgb(223, 117, 0), white) no-repeat scroll 0% 0% transparent;
+        
+	overflow:hidden;
+}
+
+.maindiv{
+	position:absolute;
+	width: 90%;
+	height:95%;
+	left:5%;
+	background:#DF7500;
+}
+
+.sidediv{
+	width: 15%;
+	height:20%;
+	background:#FFFFFF;
+}
+
+.centerdiv{
+	
+	width: 70%;
+	height:20%;
+	background:#FFFFFF ;
+	float:left;
+}
+
+.mainimg {
+
+	background:url("../image/banner.gif") no-repeat scroll center top rgb(255, 255, 255);
+	width:95%;
+	height:100%;
+	border:0;
+}
+.subimgdiv{
+	width:80%;
+	height:65%;
+	background:#000000;
+	margin:15% 10% 10% 10%;
+	border-radius:10px;
+}
+
+.changeimg{
+	width:100%;
+	height:95%;
+	margin-top:1%
+}
+
+.login{
+	float:right;
+	margin:1px;
+}
+.loginbutton{
+	    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+	    border: medium none;
+	    padding: 0.5%;
+	    color: #4285F4;
+	    z-index: 1;
+	    font: bold 14px Arial;
+}
+input:hover {
+   text-decoration: underline;
+	color:#1C43FF;
+}
+
+.labelcss{
+	font: normal 13px Arial;
+	color:#000000;
+	margin:5px 0 0 10%;
+	float:left;
+	margin-left:60px;
+}
+
+.labelcss1{
+	font: normal 13px Arial;
+	color:#000000;
+	width:120px;
+	float:left;
+	
+}
+
+.photo{
+	width:100px;
+	height:100px;
+	float:right;
+	background:#ECAE6A;
+	margin:10% 15% 0 0%;
+}
+
+.resultdiv{
+	
+	background:#FFFFFF;
+	width:90%;
+	height:99%;
+	margin-left:5%;
+}
