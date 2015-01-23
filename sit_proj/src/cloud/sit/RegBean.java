@@ -1,5 +1,13 @@
 package cloud.sit;
 
+/**
+ * This class is a Registration Bean whih contains information such as
+ * registration name, email-id, password, branch and Date of birth through out
+ * the project.
+ * 
+ * @author SridharR
+ * 
+ */
 public class RegBean {
 	private String reguname, regemail, regpass, regbranch, regdateofbirth;
 

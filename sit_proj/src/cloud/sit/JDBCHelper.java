@@ -6,6 +6,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+/**
+ * This is a Helper class requrired to establish database connection.
+ * 
+ * @author SridharR
+ * 
+ */
 public class JDBCHelper {
 	public static Connection getConnection() {
 		Connection con = null;
@@ -17,17 +23,13 @@ public class JDBCHelper {
 
 			con = DriverManager.getConnection(url, uid, pwd);
 			return con;
-
-		}
-
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			e.printStackTrace();
 			return null;
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 			return null;
 		}
-
 	}
 
 	public static void close(ResultSet rs) {

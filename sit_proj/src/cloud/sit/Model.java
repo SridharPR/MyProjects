@@ -15,6 +15,13 @@ import java.util.*;
 
 import cloud.sit.LoginBean;
 
+/**
+ * This class acts as Model in MVC Design pattern, where actual buisiness logic
+ * and database interactions is done.
+ * 
+ * @author SridharR
+ * 
+ */
 public class Model {
 
 	int sl;

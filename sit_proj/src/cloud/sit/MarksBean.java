@@ -1,5 +1,12 @@
 package cloud.sit;
 
+/**
+ * This class is a Marks Bean which contains student's marks details through out
+ * the project.
+ * 
+ * @author SridharR
+ * 
+ */
 public class MarksBean {
 	private String inputname, marks1, marks2, marks3, marks4, marks5;
 

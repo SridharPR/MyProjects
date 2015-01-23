@@ -1,2 +1,8 @@
 @CHARSET "ISO-8859-1";
-body{background-image: url("collegehomepage.png"); background-repeat:no-repeat; background-position: top; background-attachment: inherit;}
+
+body {
+	background-image: url("collegehomepage.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: inherit;
+}

@@ -1,5 +1,11 @@
 package cloud.sit;
 
+/**
+ * This class contains the constants required for the project.
+ * 
+ * @author SridharR
+ * 
+ */
 public interface Constants {
 	/*
 	 * String SUCCESS="success"; String DRIVERNAME = "org.postgresql.Driver";

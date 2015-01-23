@@ -1,7 +1,6 @@
 package cloud.sit;
 
 import java.io.IOException;
-
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -15,6 +14,12 @@ import cloud.sit.LoginBean;
 import cloud.sit.Model;
 import java.util.*;
 
+/**
+ * This class acts as cotroller between views and model in MVC Design pattern.
+ * 
+ * @author SridharR
+ * 
+ */
 public class ControllerServlet extends HttpServlet {
 
 	/**
@@ -49,7 +54,7 @@ public class ControllerServlet extends HttpServlet {
 			String uri = request.getRequestURI();
 			Model m = new Model();
 
-			/*REDIRECTING REQUEST TO LOGIN PAGE*/
+			/* REDIRECTING REQUEST TO LOGIN PAGE */
 
 			if (uri.contains("openLoginView")) {
 				rd = request.getRequestDispatcher("Login.jsp");
@@ -57,7 +62,7 @@ public class ControllerServlet extends HttpServlet {
 			}
 
 			/*----------------------------------*/
-			/*AUTHENTICATING USER AND ALLOWING INSIDE THE APPLICATION*/
+			/* AUTHENTICATING USER AND ALLOWING INSIDE THE APPLICATION */
 
 			if (uri.contains("/login")) {
 				LoginBean lb = (LoginBean) request.getAttribute("log");
@@ -86,7 +91,7 @@ public class ControllerServlet extends HttpServlet {
 						rd1 = request.getRequestDispatcher("HodView.jsp");
 						rd1.forward(request, response);
 					} else {
-						//String sb="Neenu Authenticated User alla....";
+						// String sb="Neenu Authenticated User alla....";
 						request.setAttribute("errorMsg", result);
 						rd = request.getRequestDispatcher("Login.jsp");
 						rd.forward(request, response);

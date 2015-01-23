@@ -1,5 +1,12 @@
 package cloud.sit;
 
+/**
+ * This class is a Login Bean which contains username, email-id, password
+ * information through out the project.
+ * 
+ * @author SridharR
+ * 
+ */
 public class LoginBean {
 	private String uname, email, pass, rpass;
 
